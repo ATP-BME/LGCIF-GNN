@@ -14,27 +14,27 @@ torch-scatter == 2.1.1
 # Data Preparation
 To train and evaluate the model using your own dataset, you need to prepare both functional imaging data and clinical data.
 
-For functional imaging data, you should provide the following for each subject:  
+### For functional imaging data, you should provide the following for each subject:  
 -an N by N adjacency matrix (N is the number of nodes),  
 -ROI-wise BOLD time series, which can be extracted using the DPABI/DPARSF toolbox.
 Data preprocessing scripts are available in ./data/preprocess.
 
-For clinical data:
+### For clinical data:
 -Clinical features should be saved in a .csv file following the format of the provided demo file: clinical_info_demo.csv.
 
-## Training
+# Training
 To quickly start training with the default configuration:
 ```
 sh train.sh
 ```
 If you want to train a new model on your own dataset, please change the data loader functions defined in `dataloader_local_global.py` accordingly.  
 
-## Infering
+# Infering
 To perform inference using a pretrained model checkpoint, run:
 ```
 python main_local_global.py --train False --ckpt_path './save_models/ckpt_path'
 ```
 Replace './save_models/ckpt_path' with the actual path to your saved model checkpoint.
 
-## Citation
+# Citation
 If you find this repository useful in your research, please consider citing our paper (citation info to be updated after publication).
