@@ -20,7 +20,6 @@ For functional imaging data, you should provide the following for each subject:
 Data preprocessing scripts are available in ./data/preprocess.
 
 For clinical data:
-
 -Clinical features should be saved in a .csv file following the format of the provided demo file: clinical_info_demo.csv.
 
 ## Training
