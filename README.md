@@ -37,4 +37,20 @@ python main_local_global.py --train False --ckpt_path './save_models/ckpt_path'
 Replace './save_models/ckpt_path' with the actual path to your saved model checkpoint.
 
 # Citation
-If you find this repository useful in your research, please consider citing our paper (citation info to be updated after publication).
+If you find this repository useful in your research, please consider citing our paper.
+- Liu, R., Hou, X., Liu, S. et al. Predicting antidepressant response via local-global graph neural network and neuroimaging biomarkers. npj Digit. Med. 8, 515 (2025). https://doi.org/10.1038/s41746-025-01912-8
+```
+@article{RN1289,
+   author = {Liu, Rui and Hou, Ximan and Liu, Shuyu and Zhou, Yuan and Zhou, Jingjing and Qiao, Kaini and Qi, Han and Li, Ruinan and Yang, Zhi and Zhang, Ling and Cui, Jian and Jin, Cheng and Yu, Aihong and Wang, Gang},
+   title = {Predicting antidepressant response via local-global graph neural network and neuroimaging biomarkers},
+   journal = {npj Digital Medicine},
+   volume = {8},
+   number = {1},
+   pages = {515},
+   ISSN = {2398-6352},
+   DOI = {10.1038/s41746-025-01912-8},
+   url = {https://doi.org/10.1038/s41746-025-01912-8},
+   year = {2025},
+   type = {Journal Article}
+}
+```
